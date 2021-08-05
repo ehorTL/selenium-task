@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
+# Nothing said about cross-browser comapatability in requirements to this task!!!
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default="ru",
                      help="Enter language: ru, en, es...")

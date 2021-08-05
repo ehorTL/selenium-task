@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class TestLanguage:
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-    def test_lang(self, browser):
+    def test_add_button(self, browser):
         browser.get(self.link)
         try:
             WebDriverWait(browser, 10).until(
